@@ -10,8 +10,12 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-        <?php 
-        
-        ?>
+        <form method="post" action="modulos/prod_agregar.php"</form>
+        <div><label>Nombre: </label><input type="text" name="nombre"></div>
+        <div><label>Total USD: </label><input type="text" name="totalusd"></div>
+        <div><label>Ano: </label><input type="text" name="ano"></div>
+        <input type="submit">
+        <br>
+        <a href="/modulos/prod_agregar.php">Link agregar</a>   
     </body>
 </html>
